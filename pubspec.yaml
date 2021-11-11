@@ -1,0 +1,173 @@
+name: bangladesh
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/173763.jpg
+    - assets/639388-bing-images-desktop-wallpaper-1920x1200-cell-phone.jpg
+    - assets/491449-bing-wallpaper-gallery-1920x1200-for-ipad-2.jpg
+    - assets/491432-widescreen-bing-wallpaper-gallery-1920x1200 (1).jpg
+    - assets/BingWallpaper (1).jpg
+    - assets/R08cb7f1f0f30ba66d5985b6eee9bb427.jpg
+    - assets/BingWallpaper (4).jpg
+    - assets/download.jpg
+    - assets/480px-Flag_of_Bangladesh.svg.png
+    - assets/480px-National_emblem_of_Bangladesh.svg.png
+    - assets/Government_Seal_of_Bangladesh.svg.png
+    - assets/Bangladesh_(orthographic_projection).svg.png
+    - assets/jela/dhakaDivitionJela/BD_Dhaka_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Faridpur_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Gazipur_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Gopalganj_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Kishoreganj_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Madaripur_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Manikganj_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Munshiganj_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Narayanganj_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Narsingdi_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Rajbari_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Shariatpur_District_locator_map.svg.png
+    - assets/jela/dhakaDivitionJela/BD_Tangail_District_locator_map.svg.png
+    - assets/Divition/barisal divition.svg.png
+    - assets/Divition/chittagong divition.svg.png
+    - assets/Divition/Dhaka_in_Bangladesh.svg.png
+    - assets/Divition/khulna divition.svg.png
+    - assets/Divition/moymonsing divition.svg.png
+    - assets/Divition/rajshahi divition.svg.png
+    - assets/Divition/rangpur divition.svg.png
+    - assets/Divition/sylet divition.svg.png
+    - assets/jela/chittagong divition jela/Bangladesh_Lakshmipur_District.png
+    - assets/jela/chittagong divition jela/BD_Bandarban_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Chandpur_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Chattogram_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Cox's_Bazar_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Cumilla_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Feni_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Khagrachari_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Noakhali_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/BD_Rangamati_District_locator_map.svg.png
+    - assets/jela/chittagong divition jela/Brahmanbaria_District_locator_map.png
+    - assets/jela/khulna divition jela/BD_Bagerhat_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Chuadanga_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Jashore_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Jhenaidah_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Khulna_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Kushtia_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Magura_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Meherpur_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Narail_District_locator_map.svg.png
+    - assets/jela/khulna divition jela/BD_Satkhira_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Dinajpur_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Gaibandha_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Kurigram_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Lalmonirhat_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Nilphamari_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Panchagarh_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Rangpur_District_locator_map.svg.png
+    - assets/jela/rangpur divition jela/BD_Thakurgaon_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Bogura_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Chapai_Nawabganj_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Joypurhat_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Naogaon_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Natore_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Pabna_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Rajshahi_District_locator_map.svg.png
+    - assets/jela/rajshahi divition jela/BD_Sirajganj_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Barguna_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Barishal_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Bhola_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Jhalokati_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Patuakhali_District_locator_map.svg.png
+    - assets/jela/barisal jela divition/BD_Pirojpur_District_locator_map.svg.png
+    - assets/jela/sylet jela divition/BD_Habiganj_District_locator_map.svg.png
+    - assets/jela/sylet jela divition/BD_Moulvibazar_District_locator_map.svg.png
+    - assets/jela/sylet jela divition/BD_Sunamganj_District_locator_map.svg.png
+    - assets/jela/sylet jela divition/BD_Sylhet_District_locator_map.svg.png
+    - assets/jela/moymongsing jela divition/BD_Jamalpur_District_locator_map.svg.png
+    - assets/jela/moymongsing jela divition/BD_Mymensingh_District_locator_map.svg.png
+    - assets/jela/moymongsing jela divition/BD_Netrokona_District_locator_map.svg.png
+    - assets/jela/moymongsing jela divition/BD_Sherpur_District_locator_map.svg.png
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
