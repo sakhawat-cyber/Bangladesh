@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:bangladesh/bottumNevigationVar/avout.dart';
 import 'package:bangladesh/bottumNevigationVar/homePage.dart';
 import 'package:bangladesh/bottumNevigationVar/menu.dart';
@@ -17,7 +15,6 @@ class _NavigationState extends State<Navigation> {
   @override
   var _countIndex = 0;
   final pages = [
-
     menu(),
     homePage(),
     priavcy(),
@@ -25,35 +22,51 @@ class _NavigationState extends State<Navigation> {
   ];
   Widget build(BuildContext context) {
     return Scaffold(
-
-        bottomNavigationBar: Theme(
-          data: Theme.of(context).copyWith(
+      bottomNavigationBar: Theme(
+        data: Theme.of(context).copyWith(
             // sets the background color of the `BottomNavigationBar`
-              canvasColor: Colors.blue,
-              // sets the active color of the `BottomNavigationBar` if `Brightness` is light
-              textTheme: Theme
-                  .of(context)
-                  .textTheme
-                  .copyWith(caption: new TextStyle(color: Colors.yellow))),
-
-          child: BottomNavigationBar(
-            type: BottomNavigationBarType.fixed,
+            canvasColor: Colors.blue,
+            // sets the active color of the `BottomNavigationBar` if `Brightness` is light
+            textTheme: Theme.of(context)
+                .textTheme
+                .copyWith(caption: new TextStyle(color: Colors.yellow))),
+        child: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
           onTap: (index) {
             setState(() {
               _countIndex = index;
             });
           },
-            currentIndex: _countIndex,
+          currentIndex: _countIndex,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home",style: TextStyle(fontWeight: FontWeight.bold),)),
-            BottomNavigationBarItem(icon: Icon(Icons.menu), title: Text("Menu",style: TextStyle(fontWeight: FontWeight.bold),)),
             BottomNavigationBarItem(
-                icon: Icon(Icons.privacy_tip), title: Text("PrivacyPolicy",style: TextStyle(fontWeight: FontWeight.bold),)),
-            BottomNavigationBarItem(icon: Icon(Icons.work), title: Text("About",style: TextStyle(fontWeight: FontWeight.bold),)),
+                icon: Icon(Icons.home),
+                title: Text(
+                  "Home",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.menu),
+                title: Text(
+                  "Menu",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.privacy_tip),
+                title: Text(
+                  "PrivacyPolicy",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.work),
+                title: Text(
+                  "About",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                )),
           ],
-            selectedItemColor: Colors.redAccent,
-      ),
+          selectedItemColor: Colors.redAccent,
         ),
+      ),
       body: pages[_countIndex],
     );
   }

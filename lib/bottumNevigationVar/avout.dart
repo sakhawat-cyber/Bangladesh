@@ -7,7 +7,8 @@ class about extends StatelessWidget {
     return SafeArea(child: Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        title: Text("sayed"),
+        title: Text("SAYED",style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),),
+        centerTitle: true,
       ),
     ));
   }

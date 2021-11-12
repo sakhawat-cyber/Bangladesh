@@ -4,7 +4,7 @@ import 'package:bangladesh/jela/jela1.dart';
 import 'package:bangladesh/place/place.dart';
 import 'package:bangladesh/pourosavha/pourasavha.dart';
 import 'package:bangladesh/upjela/upjela.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 class homePage extends StatefulWidget {
@@ -366,4 +366,3 @@ class _homePageState extends State<homePage> {
     );
   }
 }
-

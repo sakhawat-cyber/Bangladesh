@@ -2,9 +2,9 @@ import 'package:bangladesh/jela/brashal.dart';
 import 'package:bangladesh/jela/chittagongDivitionJela/chittang.dart';
 import 'package:bangladesh/jela/rajshahi.dart';
 import 'package:bangladesh/jela/dhakaDivitionJela/dhaka.dart';
-import 'package:bangladesh/jela/khulna.dart';
+import 'package:bangladesh/jela/khulna%20divition%20Jela/khulna.dart';
 import 'package:bangladesh/jela/maimonshing.dart';
-import 'package:bangladesh/jela/rangpur.dart';
+import 'package:bangladesh/jela/rangpur%20divition%20jela/rangpur.dart';
 import 'package:bangladesh/jela/shelet.dart';
 import 'package:flutter/material.dart';
 

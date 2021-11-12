@@ -18,7 +18,7 @@ class maimonshing extends StatelessWidget {
               color: Colors.grey,
               child: Center(
                 child: Text(
-                  "ময়মনসিংহ বিভাগে মোট ০৪ টি জেলা রয়েছে",
+                  "ময়মনসিংহ বিভাগে মোট ০৪ টি জেলা রয়েছে", textAlign: TextAlign.center,
                   style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                 ),
               ),
@@ -101,7 +101,7 @@ class moymonshingJela extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ময়মনসিংহ জেলা",
+                    "এক নজরে ময়মনসিংহ জেলা", textAlign: TextAlign.start,
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

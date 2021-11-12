@@ -7,6 +7,7 @@ import 'package:bangladesh/citycorporation/rajshahi_2.dart';
 import 'package:bangladesh/citycorporation/rangpur_2.dart';
 import 'package:bangladesh/citycorporation/shelet_2.dart';
 import 'package:flutter/material.dart';
+
 class citycorporation extends StatelessWidget {
   const citycorporation({Key? key}) : super(key: key);
 
@@ -23,7 +24,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => dhaka_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => dhaka_2()));
                 },
                 child: Text(
                   "ঢাকা",
@@ -35,7 +37,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => chittang_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => chittang_2()));
                 },
                 child: Text(
                   "চট্টগ্রাম",
@@ -47,7 +50,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => rajghahi_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => rajghahi_2()));
                 },
                 child: Text(
                   "রাজশাহী",
@@ -59,7 +63,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => brashal_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => brashal_2()));
                 },
                 child: Text(
                   "বরিশাল",
@@ -71,7 +76,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => khulna_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => khulna_2()));
                 },
                 child: Text(
                   "খুলনা",
@@ -83,7 +89,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => shelet_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => shelet_2()));
                 },
                 child: Text(
                   "সিলেট",
@@ -95,7 +102,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => rangpur_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => rangpur_2()));
                 },
                 child: Text(
                   "রংপুর",
@@ -107,7 +115,8 @@ class citycorporation extends StatelessWidget {
               child: RaisedButton(
                 color: Colors.white60,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => maimonshing_2()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => maimonshing_2()));
                 },
                 child: Text(
                   "ময়মনসিং",
@@ -123,17 +132,17 @@ class citycorporation extends StatelessWidget {
           ),
           centerTitle: true,
         ),
-        body: TabBarView(children: <Widget>[
-          dhaka_2(),
-          chittang_2(),
-          rajghahi_2(),
-          brashal_2(),
-          khulna_2(),
-          shelet_2(),
-          rangpur_2(),
-          maimonshing_2(),
-        ],
-
+        body: TabBarView(
+          children: <Widget>[
+            dhaka_2(),
+            chittang_2(),
+            rajghahi_2(),
+            brashal_2(),
+            khulna_2(),
+            shelet_2(),
+            rangpur_2(),
+            maimonshing_2(),
+          ],
         ),
         /*
         body: SingleChildScrollView(
@@ -419,6 +428,7 @@ class citycorporation extends StatelessWidget {
 
          */
       ),
-    );;
+    );
+    ;
   }
 }
