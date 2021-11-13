@@ -1,3 +1,4 @@
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/faridpurJelaUpjeal.dart';
 import 'package:flutter/material.dart';
 
 class dhaka_1 extends StatelessWidget {
@@ -59,7 +60,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>faridpurJelaUpjela()));
+                  },
                   child: Text("ফরিদপুর জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
