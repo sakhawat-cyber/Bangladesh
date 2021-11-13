@@ -129,7 +129,7 @@ class barisalJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Barishal_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -188,7 +188,7 @@ class ptowakhali extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Patuakhali_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -249,7 +249,7 @@ class pirojpurJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Pirojpur_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -308,7 +308,7 @@ class borgunaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Barguna_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -369,7 +369,7 @@ class jalukhatiJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Jhalokati_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -429,7 +429,7 @@ class volaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/barisal jela divition/BD_Bhola_District_locator_map.svg.png,",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),

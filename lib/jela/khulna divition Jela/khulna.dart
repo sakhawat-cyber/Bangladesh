@@ -162,7 +162,7 @@ class kulnaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Khulna_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -243,7 +243,7 @@ class josorJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Jashore_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -302,7 +302,7 @@ class narailJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Narail_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -362,7 +362,7 @@ class maguraJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Magura_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -420,7 +420,7 @@ class zinadhaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Jhenaidah_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -482,7 +482,7 @@ class kustiaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Kushtia_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -545,7 +545,7 @@ class cowadanghaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Chuadanga_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -605,7 +605,7 @@ class meherpurJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/khulna divition jela/BD_Meherpur_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),

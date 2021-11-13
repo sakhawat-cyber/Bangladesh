@@ -149,7 +149,7 @@ class rajshahiJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Rajshahi_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -206,7 +206,7 @@ class notorJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Natore_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -266,7 +266,7 @@ class nowgaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Naogaon_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -326,7 +326,7 @@ class capainobabgongJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Chapai_Nawabganj_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -387,7 +387,7 @@ class pabnaJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Pabna_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -446,7 +446,7 @@ class sirajgongJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Sirajganj_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -503,7 +503,7 @@ class bguraJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Bogura_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -565,7 +565,7 @@ class joypurhutJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/rajshahi divition jela/BD_Joypurhat_District_locator_map.svg.png",height: 400,width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400,width: 400),
               SizedBox(
                 height: 10,
               ),

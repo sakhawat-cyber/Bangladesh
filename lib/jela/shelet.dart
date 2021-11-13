@@ -111,7 +111,7 @@ class sheletJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/sylet jela divition/BD_Sylhet_District_locator_map.svg.png", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png", height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -175,7 +175,7 @@ class moulobibazarJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/sylet jela divition/BD_Moulvibazar_District_locator_map.svg.png", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png", height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -231,7 +231,7 @@ class hovigongJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/sylet jela divition/BD_Habiganj_District_locator_map.svg.png", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png", height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -291,7 +291,7 @@ class sonamgongJela extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/jela/sylet jela divition/BD_Sunamganj_District_locator_map.svg.png",height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
