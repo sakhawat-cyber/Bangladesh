@@ -1,4 +1,14 @@
 import 'package:bangladesh/upjela/dhaka%20divition%20upjela/faridpurJelaUpjeal.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/gazipurJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/gopalgongJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/kisorgongJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/madaripurJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/manikgongJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/monshigongJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/narayongongJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/rajbariJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/sariotpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/dhaka%20divition%20upjela/tangailJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class dhaka_1 extends StatelessWidget {
@@ -70,7 +80,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>gazipurJelaUpjela()));
+                  },
                   child: Text("গাজীপুর জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -78,7 +90,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>gopalgongJelaUpjela()));
+                  },
                   child: Text("গোপালগঞ্জ জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -86,7 +100,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>kisorgongJelaUpjela()));
+                  },
                   child: Text("কিশোরগঞ্জ জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -94,7 +110,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>madaripurJelaUpjela()));
+                  },
                   child: Text("মাদারিপুর জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -102,7 +120,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>manikgongJelaUpjela()));
+                  },
                   child: Text("মানিকগঞ্জ জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -110,7 +130,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>monshigongJelaUpjela()));
+                  },
                   child: Text("মুন্সিগঞ্জ জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -118,7 +140,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>narayongongJelaUpjela()));
+                  },
                   child: Text("নারায়নগঞ্জ জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -126,7 +150,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>nobabgongUpjela()));
+                  },
                   child: Text("নরসিংদী জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -134,7 +160,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>rajbariJelaUpjela()));
+                  },
                   child: Text("রাজবাড়ী জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -142,7 +170,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>sariotpurJelaUpjela()));
+                  },
                   child: Text("শরিয়তপুর জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -150,7 +180,9 @@ class dhaka_1 extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>tangailJelaUpjela()));
+                  },
                   child: Text("টাঙ্গাইল জেলা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
