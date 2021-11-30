@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class dhaka_2 extends StatelessWidget {
-  const dhaka_2({Key? key}) : super(key: key);
+class maguraJelaUpjela extends StatelessWidget {
+  const maguraJelaUpjela({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class dhaka_2 extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "ঢাকা বিভাগের সিটি কর্পোরেশন সমূহ",
+                      "মাগুরা জেলার উপজেলা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -30,13 +30,11 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => dhakaDhokinCityCor()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => shalikha()));
                     },
                     child: Text(
-                      "ঢাকা দক্ষিণ সিটি কর্পোরেশন",
+                      "শালিখা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -46,12 +44,10 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => dhakauttorCityCor()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => sripur()));
                   },
-                  child: Text("ঢাকা উত্তর সিটি কর্পোরেশন",
+                  child: Text("শ্রীপুর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -59,12 +55,10 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => gazipurCityCor()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => maguraSodor()));
                   },
-                  child: Text("গাজীপুর সিটি কর্পোরেশন",
+                  child: Text("মাগুরা সদর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -72,12 +66,10 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => narayongongCityCor()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => mohammadpur()));
                   },
-                  child: Text("নারায়ণগঞ্জ সিটি কর্পোরেশন",
+                  child: Text("মহম্মদপুর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -86,7 +78,8 @@ class dhaka_2 extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: Text("BACK"),
+                  child: Text("BACK",
+                      style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
@@ -97,9 +90,9 @@ class dhaka_2 extends StatelessWidget {
   }
 }
 
-//dhakaDhokinCityCor
-class dhakaDhokinCityCor extends StatelessWidget {
-  const dhakaDhokinCityCor({Key? key}) : super(key: key);
+//shalikha
+class shalikha extends StatelessWidget {
+  const shalikha({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -116,7 +109,7 @@ class dhakaDhokinCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ঢাকা দক্ষিণ সিটি কর্পোরেশন",
+                    "এক নজরে শালিখা উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -152,9 +145,9 @@ class dhakaDhokinCityCor extends StatelessWidget {
   }
 }
 
-//dhakauttorCityCor
-class dhakauttorCityCor extends StatelessWidget {
-  const dhakauttorCityCor({Key? key}) : super(key: key);
+//sripur
+class sripur extends StatelessWidget {
+  const sripur({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -171,7 +164,7 @@ class dhakauttorCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ঢাকা উত্তর সিটি কর্পোরেশন",
+                    "এক নজরে শ্রীপুর উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -179,7 +172,7 @@ class dhakauttorCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("",
+              Image.asset("assets/800px-Un-bangladesh.png",
                   height: 400, width: 400),
               SizedBox(
                 height: 10,
@@ -207,9 +200,9 @@ class dhakauttorCityCor extends StatelessWidget {
   }
 }
 
-//gazipurCityCor
-class gazipurCityCor extends StatelessWidget {
-  const gazipurCityCor({Key? key}) : super(key: key);
+//maguraSodor
+class maguraSodor extends StatelessWidget {
+  const maguraSodor({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -226,7 +219,7 @@ class gazipurCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে গাজীপুর সিটি কর্পোরেশন",
+                    "এক নজরে মাগুরা সদর উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -234,7 +227,8 @@ class gazipurCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -261,9 +255,9 @@ class gazipurCityCor extends StatelessWidget {
   }
 }
 
-//narayongongCityCor
-class narayongongCityCor extends StatelessWidget {
-  const narayongongCityCor({Key? key}) : super(key: key);
+//mohammadpur
+class mohammadpur extends StatelessWidget {
+  const mohammadpur({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -280,7 +274,7 @@ class narayongongCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে নারায়ণগঞ্জ সিটি কর্পোরেশন",
+                    "এক নজরে মহম্মদপুর উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -288,7 +282,8 @@ class narayongongCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),

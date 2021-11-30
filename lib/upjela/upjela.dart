@@ -1,11 +1,11 @@
-import 'package:bangladesh/upjela/brashal_1.dart';
-import 'package:bangladesh/upjela/chittang_1.dart';
+import 'package:bangladesh/upjela/barishal%20divition%20upjela/brashal_1.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chittang_1.dart';
 import 'package:bangladesh/upjela/dhaka%20divition%20upjela/dhaka_1.dart';
-import 'package:bangladesh/upjela/khulna_1.dart';
-import 'package:bangladesh/upjela/maimonshing_1.dart';
-import 'package:bangladesh/upjela/rajshahi_1.dart';
-import 'package:bangladesh/upjela/rangpur_1.dart';
-import 'package:bangladesh/upjela/shelet_1.dart';
+import 'package:bangladesh/upjela/khulna%20divition%20upjela/khulna_1.dart';
+import 'package:bangladesh/upjela/moymonshing%20divition%20%20upjela/maimonshing_1.dart';
+import 'package:bangladesh/upjela/rajshahi%20Jela%20Upjela/rajshahi_1.dart';
+import 'package:bangladesh/upjela/rangpur%20divition%20upjela/rangpur_1.dart';
+import 'package:bangladesh/upjela/shelat%20divition%20upjela/shelet_1.dart';
 import 'package:flutter/material.dart';
 
 class upjela extends StatelessWidget {

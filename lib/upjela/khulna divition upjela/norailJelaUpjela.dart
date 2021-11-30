@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class dhaka_2 extends StatelessWidget {
-  const dhaka_2({Key? key}) : super(key: key);
+class norailJelaUpjela extends StatelessWidget {
+  const norailJelaUpjela({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class dhaka_2 extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "ঢাকা বিভাগের সিটি কর্পোরেশন সমূহ",
+                      "নড়াইল জেলার উপজেলা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -33,10 +33,10 @@ class dhaka_2 extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => dhakaDhokinCityCor()));
+                              builder: (context) => norialSodor()));
                     },
                     child: Text(
-                      "ঢাকা দক্ষিণ সিটি কর্পোরেশন",
+                      "নড়াইল সদর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -46,12 +46,10 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => dhakauttorCityCor()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => lohagara()));
                   },
-                  child: Text("ঢাকা উত্তর সিটি কর্পোরেশন",
+                  child: Text("লোহাগড়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -59,25 +57,10 @@ class dhaka_2 extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => gazipurCityCor()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => kaliya()));
                   },
-                  child: Text("গাজীপুর সিটি কর্পোরেশন",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => narayongongCityCor()));
-                  },
-                  child: Text("নারায়ণগঞ্জ সিটি কর্পোরেশন",
+                  child: Text("কালিয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -86,7 +69,8 @@ class dhaka_2 extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: Text("BACK"),
+                  child: Text("BACK",
+                      style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
@@ -97,9 +81,9 @@ class dhaka_2 extends StatelessWidget {
   }
 }
 
-//dhakaDhokinCityCor
-class dhakaDhokinCityCor extends StatelessWidget {
-  const dhakaDhokinCityCor({Key? key}) : super(key: key);
+//narialSodor
+class norialSodor extends StatelessWidget {
+  const norialSodor({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -116,7 +100,7 @@ class dhakaDhokinCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ঢাকা দক্ষিণ সিটি কর্পোরেশন",
+                    "এক নজরে নড়াইল সদর উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -152,9 +136,9 @@ class dhakaDhokinCityCor extends StatelessWidget {
   }
 }
 
-//dhakauttorCityCor
-class dhakauttorCityCor extends StatelessWidget {
-  const dhakauttorCityCor({Key? key}) : super(key: key);
+//lohagara
+class lohagara extends StatelessWidget {
+  const lohagara({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -171,7 +155,7 @@ class dhakauttorCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ঢাকা উত্তর সিটি কর্পোরেশন",
+                    "এক নজরে লোহাগড়া উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -179,7 +163,7 @@ class dhakauttorCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("",
+              Image.asset("assets/800px-Un-bangladesh.png",
                   height: 400, width: 400),
               SizedBox(
                 height: 10,
@@ -207,9 +191,9 @@ class dhakauttorCityCor extends StatelessWidget {
   }
 }
 
-//gazipurCityCor
-class gazipurCityCor extends StatelessWidget {
-  const gazipurCityCor({Key? key}) : super(key: key);
+//kaliya
+class kaliya extends StatelessWidget {
+  const kaliya({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -226,7 +210,7 @@ class gazipurCityCor extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে গাজীপুর সিটি কর্পোরেশন",
+                    "এক নজরে কালিয়া উপজেলা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
@@ -234,61 +218,8 @@ class gazipurCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
-              SizedBox(
-                height: 10,
-              ),
-              Text(
-                "",
-                textAlign: TextAlign.justify,
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 10),
-              RaisedButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text(
-                  "BACK",
-                  style: TextStyle(fontWeight: FontWeight.bold),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-//narayongongCityCor
-class narayongongCityCor extends StatelessWidget {
-  const narayongongCityCor({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Colors.white,
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              SizedBox(height: 10),
-              Container(
-                height: 50,
-                width: 400,
-                color: Colors.grey,
-                child: Center(
-                  child: Text(
-                    "এক নজরে নারায়ণগঞ্জ সিটি কর্পোরেশন",
-                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
