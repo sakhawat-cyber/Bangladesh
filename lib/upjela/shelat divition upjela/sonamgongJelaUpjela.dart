@@ -31,7 +31,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                       child: TextButton(
                         onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (
-                              context) =>sonamgongSodor()));
+                              context) => sonamgongSodor()));
                         },
                         child: Text(
                           "সুনামগঞ্জ সদর",
@@ -45,7 +45,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>dhokinSonamgong()));
+                                context) => dhokinSonamgong()));
                           },
                           child: Text("দক্ষিণ সুনামগঞ্জ",
                               style:
@@ -57,7 +57,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>biswontorpur()));
+                                context) => biswontorpur()));
                           },
                           child: Text("বিশ্বম্ভরপুর",
                               style:
@@ -69,7 +69,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>chatok()));
+                                context) => chatok()));
                           },
                           child: Text("ছাতক",
                               style:
@@ -81,7 +81,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>jogonnatpur()));
+                                context) => jogonnatpur()));
                           },
                           child: Text("জগন্নাথপুর",
                               style:
@@ -93,7 +93,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>dowarbazar()));
+                                context) => dowarbazar()));
                           },
                           child: Text("দোয়ারাবাজার",
                               style:
@@ -105,7 +105,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>thahirpur()));
+                                context) => thahirpur()));
                           },
                           child: Text("তাহিরপুর",
                               style:
@@ -117,7 +117,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>dhormopasa()));
+                                context) => dhormopasa()));
                           },
                           child: Text("ধর্মপাশা",
                               style:
@@ -129,7 +129,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>jamalgong()));
+                                context) => jamalgong()));
                           },
                           child: Text("জামালগঞ্জ",
                               style:
@@ -141,7 +141,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>salla()));
+                                context) => salla()));
                           },
                           child: Text("শাল্লা",
                               style:
@@ -153,7 +153,7 @@ class sonamgongJelaUpjela extends StatelessWidget {
                         child: TextButton(
                           onPressed: () {
                             Navigator.push(context, MaterialPageRoute(builder: (
-                                context) =>dirai()));
+                                context) => dirai()));
                           },
                           child: Text("দিরাই",
                               style:
@@ -179,605 +179,605 @@ class sonamgongJelaUpjela extends StatelessWidget {
 
 //sonamgongSodor
 class sonamgongSodor extends StatelessWidget {
-const sonamgongSodor ({Key? key}) : super(key: key);
+  const sonamgongSodor({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে সুনামগঞ্জ সদর উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে সুনামগঞ্জ সদর উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //dhokinSonamgong
 class dhokinSonamgong extends StatelessWidget {
-const dhokinSonamgong ({Key? key}) : super(key: key);
+  const dhokinSonamgong({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে দক্ষিণ সুনামগঞ্জ উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে দক্ষিণ সুনামগঞ্জ উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //biswontorpur
 class biswontorpur extends StatelessWidget {
-const biswontorpur ({Key? key}) : super(key: key);
+  const biswontorpur({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে বিশ্বম্ভরপুর উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে বিশ্বম্ভরপুর উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //chatok
 class chatok extends StatelessWidget {
-const chatok({Key? key}) : super(key: key);
+  const chatok({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে ছাতক উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে ছাতক উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //jogonnatpur
 class jogonnatpur extends StatelessWidget {
-const jogonnatpur ({Key? key}) : super(key: key);
+  const jogonnatpur({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে জগন্নাথপুর উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে জগন্নাথপুর উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //dowarbazar
 class dowarbazar extends StatelessWidget {
-const dowarbazar ({Key? key}) : super(key: key);
+  const dowarbazar({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে দোয়ারাবাজার উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে দোয়ারাবাজার উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //tahirpur
 class thahirpur extends StatelessWidget {
-const thahirpur ({Key? key}) : super(key: key);
+  const thahirpur({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে তাহিরপুর উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে তাহিরপুর উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //dhormopasa
 class dhormopasa extends StatelessWidget {
-const dhormopasa ({Key? key}) : super(key: key);
+  const dhormopasa({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে ধর্মপাশা উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে ধর্মপাশা উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //jamalgong
 class jamalgong extends StatelessWidget {
-const jamalgong ({Key? key}) : super(key: key);
+  const jamalgong({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে জামালগঞ্জ উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে জামালগঞ্জ উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //salla
 class salla extends StatelessWidget {
-const salla ({Key? key}) : super(key: key);
+  const salla({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে শাল্লা উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে শাল্লা উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 //dirai
 class dirai extends StatelessWidget {
-const dirai ({Key? key}) : super(key: key);
+  const dirai({Key? key}) : super(key: key);
 
-@override
-Widget build(BuildContext context) {
-return SafeArea(
-child: Scaffold(
-backgroundColor: Colors.white,
-body: SingleChildScrollView(
-child: Column(
-children: [
-SizedBox(height: 10),
-Container(
-height: 50,
-width: 400,
-color: Colors.grey,
-child: Center(
-child: Text(
-"এক নজরে দিরাই উপজেলা",
-style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
-),
-),
-),
-SizedBox(
-height: 10,
-),
-Image.asset("assets/800px-Un-bangladesh.png",
-height: 400, width: 400),
-SizedBox(
-height: 10,
-),
-Text(
-"",
-textAlign: TextAlign.justify,
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-SizedBox(height: 10),
-RaisedButton(
-onPressed: () {
-Navigator.pop(context);
-},
-child: Text(
-"BACK",
-style: TextStyle(fontWeight: FontWeight.bold),
-),
-),
-],
-),
-),
-),
-);
-}
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 400,
+                color: Colors.grey,
+                child: Center(
+                  child: Text(
+                    "এক নজরে দিরাই উপজেলা",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Image.asset("assets/800px-Un-bangladesh.png",
+                  height: 400, width: 400),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "",
+                textAlign: TextAlign.justify,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(height: 10),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }
