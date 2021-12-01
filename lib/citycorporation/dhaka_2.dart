@@ -86,7 +86,10 @@ class dhaka_2 extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: Text("BACK"),
+                  child: Text(
+                    "BACK",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                 ),
               ],
             ),
@@ -124,7 +127,7 @@ class dhakaDhokinCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("assets/800px-Un-bangladesh.png",
+              Image.asset("assets/citycorporetion/dhakacity/dhakhDokkin.jpg",
                   height: 400, width: 400),
               SizedBox(
                 height: 10,
@@ -179,7 +182,7 @@ class dhakauttorCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("",
+              Image.asset("assets/citycorporetion/dhakacity/dhakauttor.jpg",
                   height: 400, width: 400),
               SizedBox(
                 height: 10,
@@ -234,7 +237,8 @@ class gazipurCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/citycorporetion/dhakacity/gajipurCityCor.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -288,7 +292,10 @@ class narayongongCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset(
+                  "assets/citycorporetion/dhakacity/nariyengongCityCor.png",
+                  height: 400,
+                  width: 400),
               SizedBox(
                 height: 10,
               ),

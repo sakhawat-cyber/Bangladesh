@@ -27,7 +27,8 @@ class khulna_2 extends StatelessWidget {
             Center(
                 child: TextButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>khulnaCityCor()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => khulnaCityCor()));
               },
               child: Text(
                 "খুলনা সিটি কর্পোরেশন",
@@ -39,7 +40,10 @@ class khulna_2 extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("BACK"),
+              child: Text(
+                "BACK",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),
@@ -74,7 +78,8 @@ class khulnaCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/citycorporetion/khulnaCity.jpg",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),

@@ -27,7 +27,10 @@ class rajghahi_2 extends StatelessWidget {
               Center(
                   child: TextButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) =>rajshahiCityCor()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => rajshahiCityCor()));
                 },
                 child: Text(
                   "রাজশাহী সিটি কর্পোরেশন",
@@ -39,7 +42,10 @@ class rajghahi_2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text("BACK"),
+                child: Text(
+                  "BACK",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
               ),
             ],
           ),
@@ -75,7 +81,8 @@ class rajshahiCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/citycorporetion/rajshahi.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),

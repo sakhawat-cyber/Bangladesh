@@ -27,7 +27,10 @@ class chittang_2 extends StatelessWidget {
             Center(
                 child: TextButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>chittagongCityCor()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => chittagongCityCor()));
               },
               child: Text(
                 "চট্টগ্রাম সিটি কর্পোরেশন",
@@ -38,7 +41,8 @@ class chittang_2 extends StatelessWidget {
             Center(
                 child: TextButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>comillaCityCor()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => comillaCityCor()));
               },
               child: Text("কুমিল্লা সিটি কর্পোরেশন",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +52,10 @@ class chittang_2 extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("BACK"),
+              child: Text(
+                "BACK",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),
@@ -84,7 +91,10 @@ class chittagongCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset(
+                  "assets/citycorporetion/chttagongcitycor/cittagongCity.png",
+                  height: 400,
+                  width: 400),
               SizedBox(
                 height: 10,
               ),
@@ -138,7 +148,10 @@ class comillaCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset(
+                  "assets/citycorporetion/chttagongcitycor/comillaCity.png",
+                  height: 400,
+                  width: 400),
               SizedBox(
                 height: 10,
               ),

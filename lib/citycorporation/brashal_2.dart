@@ -40,7 +40,10 @@ class brashal_2 extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("BACK"),
+              child: Text(
+                "BACK",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),
@@ -75,7 +78,8 @@ class borisalCityCor extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Image.asset("", height: 400, width: 400),
+              Image.asset("assets/citycorporetion/barislCity.png",
+                  height: 400, width: 400),
               SizedBox(
                 height: 10,
               ),
