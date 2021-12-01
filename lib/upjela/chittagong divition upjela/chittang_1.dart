@@ -1,3 +1,14 @@
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/bhandorbhonJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/bramonbariyaJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chadpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chttagongJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/comillaJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/coxsbazarJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/feniJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/khagracodiJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/lokkhipurJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/noyakhaliJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagong%20divition%20upjela/ranghamatiJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class chittang_1 extends StatelessWidget {
@@ -7,7 +18,7 @@ class chittang_1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.white,
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -26,82 +37,135 @@ class chittang_1 extends StatelessWidget {
             SizedBox(height: 1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "চট্টগ্রাম জেলা",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
-                  ),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => chittagongJelaUpjela()));
+              },
+              child: Text(
+                "চট্টগ্রাম জেলা",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
+              ),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("কক্সবাজার জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => coxbazarJelaUpjela()));
+              },
+              child: Text("কক্সবাজার জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("কুমিল্লা জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => comillaJelaUpjela()));
+              },
+              child: Text("কুমিল্লা জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("ব্রাহ্মণবাড়িয়া জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => bramonbariyaJelaUpjela()));
+              },
+              child: Text("ব্রাহ্মণবাড়িয়া জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("ফেনী জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => feniJelaUpjela()));
+              },
+              child: Text("ফেনী জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("চাঁদপুর জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => cadpurJelaUpjela()));
+              },
+              child: Text("চাঁদপুর জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("লক্ষ্মীপুর জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => lokkipurJelaUpjela()));
+              },
+              child: Text("লক্ষ্মীপুর জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("নোয়াখালী জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => noyakhaliJelaUpjela()));
+              },
+              child: Text("নোয়াখালী জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("রাঙ্গামাটি জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => ranghamatiJelaUpjela()));
+              },
+              child: Text("রাঙ্গামাটি জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("খাগড়াছড়ি জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => khagracodiJelaUpjela()));
+              },
+              child: Text("খাগড়াছড়ি জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("বান্দরবান জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => bhandorbhonJelaUpjela()));
+              },
+              child: Text("বান্দরবান জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 1),
             RaisedButton(
               onPressed: () {
