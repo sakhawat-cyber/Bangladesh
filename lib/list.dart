@@ -20,7 +20,7 @@ class  extends StatelessWidget {
                       color: Colors.grey,
                       child: Center(
                         child: Text(
-                          " জেলার উপজেলা সমূহ",
+                          " জেলার পৌরসভা সমূহ",
                           style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                         ),
@@ -37,38 +37,6 @@ class  extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 0.1),
-                    Center(
-                        child: TextButton(
-                          onPressed: () {},
-                          child: Text("",
-                              style:
-                              TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                        )),
-                    SizedBox(height: 0.1),
-                    Center(
-                        child: TextButton(
-                          onPressed: () {},
-                          child: Text("",
-                              style:
-                              TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                        )),
-                    SizedBox(height: 0.1),
-                    Center(
-                        child: TextButton(
-                          onPressed: () {},
-                          child: Text("",
-                              style:
-                              TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                        )),
-                    SizedBox(height: 0.1),
-                    Center(
-                        child: TextButton(
-                          onPressed: () {},
-                          child: Text("",
-                              style:
-                              TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                        )),
                     SizedBox(height: 0.1),
                     Center(
                         child: TextButton(
@@ -151,6 +119,7 @@ class  extends StatelessWidget {
 
  */
 /*
+import 'package:flutter/material.dart';
 class  extends StatelessWidget {
   const ({Key? key}) : super(key: key);
 
@@ -169,7 +138,7 @@ class  extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে  উপজেলা",
+                    "এক নজরে  পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
