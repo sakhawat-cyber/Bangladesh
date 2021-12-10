@@ -1,3 +1,9 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/damudha.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/gosarhait.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/jazira.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/nariya.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/soriyotpur.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/soriyotpurJela/vedorgong.dart';
 import 'package:flutter/material.dart';
 
 class soriyotpurJelaPow extends StatelessWidget {
@@ -29,7 +35,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => damudhap()));
+                    },
                     child: Text(
                       "ডামুড্যা",
                       style:
@@ -40,7 +49,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => soriyotpurp()));
+                  },
                   child: Text("শরীয়তপুর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +60,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => nariyap()));
+                  },
                   child: Text("নড়িয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -56,7 +71,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => vedorgongp()));
+                  },
                   child: Text("ভেদরগঞ্জ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -64,7 +82,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => gosarhaitp()));
+                  },
                   child: Text("গোসাইরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -72,7 +93,10 @@ class soriyotpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => jazirap()));
+                  },
                   child: Text("জাজিরা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

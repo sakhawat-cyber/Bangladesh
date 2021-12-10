@@ -1,3 +1,6 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/rajbariJela/goualondu.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/rajbariJela/pansha.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/rajbariJela/rajbari.dart';
 import 'package:flutter/material.dart';
 
 class rajbariJelaPow extends StatelessWidget {
@@ -29,7 +32,12 @@ class rajbariJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => goualandop()));
+                    },
                     child: Text(
                       "গোয়ালন্দ",
                       style:
@@ -40,7 +48,10 @@ class rajbariJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => panshap()));
+                  },
                   child: Text("পাংশা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +59,10 @@ class rajbariJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => rajbarip()));
+                  },
                   child: Text("রাজবাড়ী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

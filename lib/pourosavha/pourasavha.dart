@@ -1,5 +1,5 @@
 import 'package:bangladesh/pourosavha/brashal_3.dart';
-import 'package:bangladesh/pourosavha/chittang_3.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chittang_3.dart';
 import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/dhaka_3.dart';
 import 'package:bangladesh/pourosavha/khulna_3.dart';
 import 'package:bangladesh/pourosavha/maimonshing_3.dart';

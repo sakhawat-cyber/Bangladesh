@@ -1,3 +1,6 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaligongPowroshavah.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaliyakaierPowrosavah.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/sripurPowrosavha.dart';
 import 'package:flutter/material.dart';
 
 class gazipurJelaPow extends StatelessWidget {
@@ -29,7 +32,12 @@ class gazipurJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => kaliyakaierp()));
+                    },
                     child: Text(
                       "কালিয়াকৈর",
                       style:
@@ -40,7 +48,10 @@ class gazipurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => sripurp()));
+                  },
                   child: Text("শ্রীপুর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +59,10 @@ class gazipurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => kaligongp()));
+                  },
                   child: Text("কালিগঞ্জ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

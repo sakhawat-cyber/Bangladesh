@@ -1,3 +1,5 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/manikgongJela/manikgong.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/manikgongJela/singgarai.dart';
 import 'package:flutter/material.dart';
 
 class manikgongJelaPow extends StatelessWidget {
@@ -29,7 +31,12 @@ class manikgongJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => manikgongp()));
+                    },
                     child: Text(
                       "মানিকগঞ্জ",
                       style:
@@ -40,7 +47,10 @@ class manikgongJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => singgarip()));
+                  },
                   child: Text("সিংগাইর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

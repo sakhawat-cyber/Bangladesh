@@ -1,3 +1,9 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/alphadangha.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/boyalmari.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/foridpur.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/madhukhali.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/nogorkhandha.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/foridpurJela/vangha.dart';
 import 'package:flutter/material.dart';
 
 class foridpurJelaPow extends StatelessWidget {
@@ -20,7 +26,7 @@ class foridpurJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "ফরিদপুর জেলার উপজেলা সমূহ",
+                      "ফরিদপুর জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -29,7 +35,10 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => foridpurp()));
+                    },
                     child: Text(
                       "ফরিদপুর",
                       style:
@@ -40,7 +49,10 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => boyalmarip()));
+                  },
                   child: Text("বোয়ালমারী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +60,10 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => vanghap()));
+                  },
                   child: Text("ভাঙ্গা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -56,7 +71,10 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => madhukhalip()));
+                  },
                   child: Text("মধুখালী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -64,7 +82,12 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => alphadanghap()));
+                  },
                   child: Text("আলফাডাঙ্গা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -72,7 +95,12 @@ class foridpurJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => nogorkhandap()));
+                  },
                   child: Text("নগরকান্দা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

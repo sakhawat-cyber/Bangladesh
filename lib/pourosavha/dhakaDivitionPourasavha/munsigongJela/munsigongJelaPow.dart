@@ -1,3 +1,5 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/munsigongJela/mirkadim.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/munsigongJela/munsigong.dart';
 import 'package:flutter/material.dart';
 
 class munsigognJelaPow extends StatelessWidget {
@@ -29,7 +31,10 @@ class munsigognJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => mirkadimp()));
+                    },
                     child: Text(
                       "মীরকাদিম",
                       style:
@@ -40,7 +45,10 @@ class munsigognJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => munsigognp()));
+                  },
                   child: Text("মুন্সিগঞ্জ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

@@ -1,5 +1,5 @@
 import 'package:bangladesh/upjela/barishalDivitionUpjela/brashal_1.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chittang_1.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/chittang_1.dart';
 import 'package:bangladesh/upjela/dhaka%20divition%20upjela/dhaka_1.dart';
 import 'package:bangladesh/upjela/khulnaDivitionUpjela/khulnaJelaUpjela/khulna_1.dart';
 import 'package:bangladesh/upjela/moymonshing%20divition%20%20upjela/maimonshing_1.dart';

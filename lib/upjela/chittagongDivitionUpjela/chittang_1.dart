@@ -1,14 +1,14 @@
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/bhandorbhonJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/bramonbariyaJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chadpurJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/chttagongJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/comillaJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/coxsbazarJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/feniJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/khagracodiJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/lokkhipurJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/noyakhaliJelaUpjela.dart';
-import 'package:bangladesh/upjela/chittagong%20divition%20upjela/ranghamatiJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/bhandorbhonJelaUpjela/bhandorbhonJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/bramonbariyaJelaUpjela/bramonbariyaJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/cadpurJelaUpjela/chadpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/chttagongJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/comillaJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/coxsbazarJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/feniJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/khagracodiJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/lokkhipurJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/noyakhaliJelaUpjela.dart';
+import 'package:bangladesh/upjela/chittagongDivitionUpjela/ranghamatiJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class chittang_1 extends StatelessWidget {
