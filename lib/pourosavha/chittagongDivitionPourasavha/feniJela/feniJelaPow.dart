@@ -1,9 +1,8 @@
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/gharashar.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/madhovi.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/monihordi.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/nosingdhi.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/raipura.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/norsingdiJela/sivpur.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/cagolchanaiyap.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/dhagonvhoyap.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/fenip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/porsuramp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/sonagajip.dart';
 import 'package:flutter/material.dart';
 
 class norsingdiJelaPow extends StatelessWidget {
@@ -26,7 +25,7 @@ class norsingdiJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "নরসিংদী জেলার পৌরসভা সমূহ",
+                      "ফেনী জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -39,10 +38,10 @@ class norsingdiJelaPow extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => gharasharp()));
+                              builder: (context) => cagolchanaiyap()));
                     },
                     child: Text(
-                      "ঘোড়াশাল",
+                      "ছাগলনাইয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -52,10 +51,12 @@ class norsingdiJelaPow extends StatelessWidget {
                 Center(
                     child: TextButton(
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => norsingdip()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => dhagonvhoyap()));
                   },
-                  child: Text("নরসিংদী",
+                  child: Text("দাগনভূঁইয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -64,9 +65,9 @@ class norsingdiJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => madhovip()));
+                        MaterialPageRoute(builder: (context) => fenip()));
                   },
-                  child: Text("মাধবদী",
+                  child: Text("ফেনী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -75,9 +76,9 @@ class norsingdiJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => monihordip()));
+                        MaterialPageRoute(builder: (context) => porsuramp()));
                   },
-                  child: Text("মনোহরদী",
+                  child: Text("পরশুরাম",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -86,20 +87,9 @@ class norsingdiJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => raipurap()));
+                        MaterialPageRoute(builder: (context) => sonagajip()));
                   },
-                  child: Text("রায়পুরা",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => sivpurp()));
-                  },
-                  child: Text("শিবপুর",
+                  child: Text("সোনাগাজী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

@@ -1,3 +1,5 @@
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/ranghamathiJela/bagaicarip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/ranghamathiJela/ranghamatip.dart';
 import 'package:flutter/material.dart';
 
 class dhakaJelaPow extends StatelessWidget {
@@ -20,7 +22,7 @@ class dhakaJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "ঢাকা জেলার পৌরসভা সমূহ",
+                      "রাঙ্গামাটি জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -29,9 +31,11 @@ class dhakaJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      MaterialPageRoute(builder: (context) => ranghamatip());
+                    },
                     child: Text(
-                      "দোহার",
+                      "রাঙ্গামাটি",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -40,16 +44,10 @@ class dhakaJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
-                  child: Text("ধামরাই",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {},
-                  child: Text("সাভার",
+                  onPressed: () {
+                    MaterialPageRoute(builder: (context) => bagaicarip());
+                  },
+                  child: Text("বাঘাইছড়ি",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

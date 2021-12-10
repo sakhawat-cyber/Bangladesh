@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class tongiparap extends StatelessWidget {
-  const tongiparap({Key? key}) : super(key: key);
+class nobingorp extends StatelessWidget {
+  const nobingorp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class tongiparap extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে টুঙ্গিপাড়া পৌরসভা",
+                    "এক নজরে নবীনগর পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

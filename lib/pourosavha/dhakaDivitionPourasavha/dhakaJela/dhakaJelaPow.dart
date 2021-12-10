@@ -1,3 +1,6 @@
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/dhakaJela/dhamrai.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/dhakaJela/dohar.dart';
+import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/dhakaJela/savar.dart';
 import 'package:flutter/material.dart';
 
 class dhakaJelaPow extends StatelessWidget {
@@ -29,7 +32,9 @@ class dhakaJelaPow extends StatelessWidget {
                 SizedBox(height: 1),
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      MaterialPageRoute(builder: (context) => doharp());
+                    },
                     child: Text(
                       "দোহার",
                       style:
@@ -40,7 +45,9 @@ class dhakaJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    MaterialPageRoute(builder: (context) => dhamraip());
+                  },
                   child: Text("ধামরাই",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
@@ -48,7 +55,9 @@ class dhakaJelaPow extends StatelessWidget {
                 SizedBox(height: 0.1),
                 Center(
                     child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    MaterialPageRoute(builder: (context) => savarp());
+                  },
                   child: Text("সাভার",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class hossenpurp extends StatelessWidget {
-  const hossenpurp({Key? key}) : super(key: key);
+class chatkhilp extends StatelessWidget {
+  const chatkhilp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class hossenpurp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে কিশোরগঞ্জ পৌরসভা",
+                    "এক নজরে চাটখিল পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

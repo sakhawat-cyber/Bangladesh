@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class rajoirp extends StatelessWidget {
-  const rajoirp({Key? key}) : super(key: key);
+class cowmohonip extends StatelessWidget {
+  const cowmohonip({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class rajoirp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে রাজৈর পৌরসভা",
+                    "এক নজরে চৌমুহনী পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

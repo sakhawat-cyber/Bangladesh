@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class monihordip extends StatelessWidget {
-  const monihordip({Key? key}) : super(key: key);
+class hatiyap extends StatelessWidget {
+  const hatiyap({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class monihordip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে মনোহরদী পৌরসভা",
+                    "এক নজরে হাতিয়া পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class madhovip extends StatelessWidget {
-  const madhovip({Key? key}) : super(key: key);
+class sonagajip extends StatelessWidget {
+  const sonagajip({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class madhovip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে মাধবদী পৌরসভা",
+                    "এক নজরে সোনাগাজী পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

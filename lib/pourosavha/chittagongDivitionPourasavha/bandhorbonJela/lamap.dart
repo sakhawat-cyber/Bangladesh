@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class doharp extends StatelessWidget {
-  const doharp({Key? key}) : super(key: key);
+class lamap extends StatelessWidget {
+  const lamap({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class doharp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে দোহার পৌরসভা",
+                    "এক নজরে লামা পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

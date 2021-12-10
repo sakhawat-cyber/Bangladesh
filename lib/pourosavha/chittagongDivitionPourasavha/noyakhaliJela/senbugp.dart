@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class sivpurp extends StatelessWidget {
-  const sivpurp({Key? key}) : super(key: key);
+class senbugp extends StatelessWidget {
+  const senbugp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class sivpurp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে শিবপুর পৌরসভা",
+                    "এক নজরে সেনবাগs পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

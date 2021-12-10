@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class kalkinip extends StatelessWidget {
-  const kalkinip({Key? key}) : super(key: key);
+class bramonbariyp extends StatelessWidget {
+  const bramonbariyp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class kalkinip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে কালকিনি পৌরসভা",
+                    "এক নজরে ব্রাহ্মণবাড়িয়া পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

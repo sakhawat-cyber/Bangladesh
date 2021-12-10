@@ -1,11 +1,9 @@
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gopalgongJela/gopalgong.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gopalgongJela/kotalipara.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gopalgongJela/muksudpur.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gopalgongJela/tongipara.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bandhorbonJela/bandhorbonp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bandhorbonJela/lamap.dart';
 import 'package:flutter/material.dart';
 
-class gopalgongJelaPow extends StatelessWidget {
-  const gopalgongJelaPow({Key? key}) : super(key: key);
+class foridpurJelaPow extends StatelessWidget {
+  const foridpurJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +22,7 @@ class gopalgongJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "গোপালগঞ্জ জেলার পৌরসভা সমূহ",
+                      "বান্দরবান জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -37,10 +35,10 @@ class gopalgongJelaPow extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => kotaliparap()));
+                              builder: (context) => bandhorbonp()));
                     },
                     child: Text(
-                      "কোটালীপাড়া",
+                      "বান্দরবান",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -51,31 +49,9 @@ class gopalgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => gopalgongp()));
+                        MaterialPageRoute(builder: (context) => lamap()));
                   },
-                  child: Text("গোপালগঞ্জ",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => tongiparap()));
-                  },
-                  child: Text("টুঙ্গিপাড়া",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => muksudpurp()));
-                  },
-                  child: Text("মুকসুদপুর",
+                  child: Text("লামা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

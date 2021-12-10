@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class dhamraip extends StatelessWidget {
-  const dhamraip({Key? key}) : super(key: key);
+class sonaimorip extends StatelessWidget {
+  const sonaimorip({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class dhamraip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ধামরাই পৌরসভা",
+                    "এক নজরে সোনাইমুড়ি পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

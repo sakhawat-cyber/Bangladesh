@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class gharasharp extends StatelessWidget {
-  const gharasharp({Key? key}) : super(key: key);
+class basurhutp extends StatelessWidget {
+  const basurhutp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class gharasharp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে ঘোড়াশাল পৌরসভা",
+                    "এক নজরে বসুরহাটs পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

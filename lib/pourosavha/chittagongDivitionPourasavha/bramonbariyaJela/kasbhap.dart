@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class katiyadip extends StatelessWidget {
-  const katiyadip({Key? key}) : super(key: key);
+class kasbhap extends StatelessWidget {
+  const kasbhap({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class katiyadip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে কটিয়াদী পৌরসভা",
+                    "এক নজরে কসবা পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

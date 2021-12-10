@@ -20,7 +20,7 @@ class noyakhaliJelaUpjela extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "নোয়াখালী জেলার উপজেলা সমূহ",
+                      "নোয়াখালী জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),

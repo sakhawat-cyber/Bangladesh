@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class gopalgongp extends StatelessWidget {
-  const gopalgongp({Key? key}) : super(key: key);
+class ramgongp extends StatelessWidget {
+  const ramgongp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class gopalgongp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে গোপালগঞ্জ পৌরসভা",
+                    "এক নজরে রামগঞ্জ পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

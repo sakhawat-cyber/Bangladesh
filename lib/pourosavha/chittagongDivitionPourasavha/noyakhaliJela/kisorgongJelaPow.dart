@@ -1,11 +1,11 @@
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/bajitpurPourasovha.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/hossenpurPourasovha.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/karimgongPourasovha.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/katiyadiPourasova.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/kisorgong.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/kouliyarcorPourasovha.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/pakundiyaPourosavha.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/kisorgongJela/vairobPourasova.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/basurhutp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/chatkhilp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/cowmohonip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/hatiyap.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/kobirhutp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/noyakhalip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/senbugp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/sonaimorip.dart';
 import 'package:flutter/material.dart';
 
 class kisorgongJelaPow extends StatelessWidget {
@@ -28,7 +28,7 @@ class kisorgongJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "কিশোরগঞ্জ জেলার উপজেলা সমূহ",
+                      "নোয়াখালী জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -38,13 +38,11 @@ class kisorgongJelaPow extends StatelessWidget {
                 Center(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => kisorgongp()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => chatkhilp()));
                     },
                     child: Text(
-                      "কিশোরগঞ্জ",
+                      "চাটখিল",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -55,9 +53,9 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => vairobp()));
+                        MaterialPageRoute(builder: (context) => cowmohonip()));
                   },
-                  child: Text("ভৈরব",
+                  child: Text("চৌমুহনী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -66,9 +64,9 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => katiyadip()));
+                        MaterialPageRoute(builder: (context) => noyakhalip()));
                   },
-                  child: Text("কটিয়াদী",
+                  child: Text("নোয়াখালী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -77,22 +75,9 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => karimgongp()));
+                        MaterialPageRoute(builder: (context) => basurhutp()));
                   },
-                  child: Text("করিমগঞ্জ",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => kouliyarcorp()));
-                  },
-                  child: Text("কুলিয়ারচর",
+                  child: Text("বসুরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -101,9 +86,9 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => bajitpurp()));
+                        MaterialPageRoute(builder: (context) => sonaimorip()));
                   },
-                  child: Text("বাজিতপুর",
+                  child: Text("সোনাইমুড়ি",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -112,9 +97,9 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => hossenpurp()));
+                        MaterialPageRoute(builder: (context) => kobirhutp()));
                   },
-                  child: Text("হোসেনপুর",
+                  child: Text("কবিরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -123,9 +108,20 @@ class kisorgongJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => pakundiyap()));
+                        MaterialPageRoute(builder: (context) => senbugp()));
                   },
-                  child: Text("পাকুন্দিয়া",
+                  child: Text("সেনবাগ",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                )),
+                SizedBox(height: 0.1),
+                Center(
+                    child: TextButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => hatiyap()));
+                  },
+                  child: Text("হাতিয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class norsingdip extends StatelessWidget {
-  const norsingdip({Key? key}) : super(key: key);
+class ranghamatip extends StatelessWidget {
+  const ranghamatip({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class norsingdip extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে নরসিংদী পৌরসভা",
+                    "এক নজরে রাঙ্গামাটি পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
