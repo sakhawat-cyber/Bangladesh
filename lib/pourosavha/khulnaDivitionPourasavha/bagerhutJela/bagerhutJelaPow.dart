@@ -1,13 +1,10 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/khagrachrip.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/matiranghap.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/ramgorp.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaligongPowroshavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaliyakaierPowrosavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/sripurPowrosavha.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/bagerhutJela/bagerhutp.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/bagerhutJela/modolgongp.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/bagerhutJela/monglaPortp.dart';
 import 'package:flutter/material.dart';
 
-class khagrachriJelaPow extends StatelessWidget {
-  const khagrachriJelaPow({Key? key}) : super(key: key);
+class bagerhutJelaPow extends StatelessWidget {
+  const bagerhutJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +23,7 @@ class khagrachriJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "খাগড়াছড়ি জেলার পৌরসভা সমূহ",
+                      "বাগেরহাট জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -36,13 +33,11 @@ class khagrachriJelaPow extends StatelessWidget {
                 Center(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => khagrachrip()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => bagerhutp()));
                     },
                     child: Text(
-                      "খাগড়াছড়ি",
+                      "বাগেরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -53,9 +48,9 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => matiranghap()));
+                        MaterialPageRoute(builder: (context) => monglaPortp()));
                   },
-                  child: Text("মাটিরাঙ্গা",
+                  child: Text("মোংলা পোর্ট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -64,9 +59,9 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => ramgorp()));
+                        MaterialPageRoute(builder: (context) => modolgongp()));
                   },
-                  child: Text("রামগড়",
+                  child: Text("মোড়েলগঞ্জ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

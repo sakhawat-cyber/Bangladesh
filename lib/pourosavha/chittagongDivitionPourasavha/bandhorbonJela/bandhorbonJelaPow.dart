@@ -2,8 +2,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bandhorbonJel
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bandhorbonJela/lamap.dart';
 import 'package:flutter/material.dart';
 
-class foridpurJelaPow extends StatelessWidget {
-  const foridpurJelaPow({Key? key}) : super(key: key);
+class bandhorbonJelaPow extends StatelessWidget {
+  const bandhorbonJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

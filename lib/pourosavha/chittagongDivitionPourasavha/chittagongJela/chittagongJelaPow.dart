@@ -15,8 +15,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chittagongJel
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chittagongJela/sondipp.dart';
 import 'package:flutter/material.dart';
 
-class tangialJelaPow extends StatelessWidget {
-  const tangialJelaPow({Key? key}) : super(key: key);
+class chittagongJelaPow extends StatelessWidget {
+  const chittagongJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

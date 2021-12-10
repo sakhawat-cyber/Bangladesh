@@ -8,8 +8,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/comillaJela/n
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/comillaJela/varudahap.dart';
 import 'package:flutter/material.dart';
 
-class soriyotpurJelaPow extends StatelessWidget {
-  const soriyotpurJelaPow({Key? key}) : super(key: key);
+class comillaJelaPow extends StatelessWidget {
+  const comillaJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

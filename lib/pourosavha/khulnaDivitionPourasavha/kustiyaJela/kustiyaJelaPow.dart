@@ -1,13 +1,12 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/khagrachrip.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/matiranghap.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/ramgorp.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaligongPowroshavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaliyakaierPowrosavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/sripurPowrosavha.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/kustiyaJela/kukshap.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/kustiyaJela/kumarkhalip.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/kustiyaJela/kustiyap.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/kustiyaJela/mirpurp.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/kustiyaJela/veramarap.dart';
 import 'package:flutter/material.dart';
 
-class khagrachriJelaPow extends StatelessWidget {
-  const khagrachriJelaPow({Key? key}) : super(key: key);
+class kustiyaJelaPow extends StatelessWidget {
+  const kustiyaJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +25,7 @@ class khagrachriJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "খাগড়াছড়ি জেলার পৌরসভা সমূহ",
+                      "কুষ্টিয়া জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -39,10 +38,10 @@ class khagrachriJelaPow extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => khagrachrip()));
+                              builder: (context) => kumarkhalip()));
                     },
                     child: Text(
-                      "খাগড়াছড়ি",
+                      "কুমারখালী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -53,9 +52,9 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => matiranghap()));
+                        MaterialPageRoute(builder: (context) => kustiyap()));
                   },
-                  child: Text("মাটিরাঙ্গা",
+                  child: Text("কুষ্টিয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -64,9 +63,31 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => ramgorp()));
+                        MaterialPageRoute(builder: (context) => veramarap()));
                   },
-                  child: Text("রামগড়",
+                  child: Text("ভেড়ামারা",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                )),
+                SizedBox(height: 0.1),
+                Center(
+                    child: TextButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => mirpurp()));
+                  },
+                  child: Text("মিরপুর",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                )),
+                SizedBox(height: 0.1),
+                Center(
+                    child: TextButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => kukshap()));
+                  },
+                  child: Text("খোকসা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

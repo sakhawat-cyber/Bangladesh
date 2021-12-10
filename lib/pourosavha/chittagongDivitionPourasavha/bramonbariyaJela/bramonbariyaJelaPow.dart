@@ -5,8 +5,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bramonbariyaJ
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/bramonbariyaJela/nobingorp.dart';
 import 'package:flutter/material.dart';
 
-class gopalgongJelaPow extends StatelessWidget {
-  const gopalgongJelaPow({Key? key}) : super(key: key);
+class bramonbariyaJelaPow extends StatelessWidget {
+  const bramonbariyaJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

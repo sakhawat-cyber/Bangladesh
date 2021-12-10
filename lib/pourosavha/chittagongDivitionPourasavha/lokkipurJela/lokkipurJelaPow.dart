@@ -1,13 +1,11 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/khagrachrip.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/matiranghap.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/khagrachriJela/ramgorp.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaligongPowroshavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/kaliyakaierPowrosavah.dart';
-import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/gazipurJela/sripurPowrosavha.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/lokkipurp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/raipurp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/ramgongp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/ramgotip.dart';
 import 'package:flutter/material.dart';
 
-class khagrachriJelaPow extends StatelessWidget {
-  const khagrachriJelaPow({Key? key}) : super(key: key);
+class lokkipurJelaPow extends StatelessWidget {
+  const lokkipurJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +24,7 @@ class khagrachriJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "খাগড়াছড়ি জেলার পৌরসভা সমূহ",
+                      "লক্ষ্মীপুর জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -36,13 +34,11 @@ class khagrachriJelaPow extends StatelessWidget {
                 Center(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => khagrachrip()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => ramgongp()));
                     },
                     child: Text(
-                      "খাগড়াছড়ি",
+                      "রামগঞ্জ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -53,9 +49,9 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => matiranghap()));
+                        MaterialPageRoute(builder: (context) => raipurp()));
                   },
-                  child: Text("মাটিরাঙ্গা",
+                  child: Text("রায়পুর",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -64,9 +60,20 @@ class khagrachriJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => ramgorp()));
+                        MaterialPageRoute(builder: (context) => lokkipurp()));
                   },
-                  child: Text("রামগড়",
+                  child: Text("লক্ষ্মীপুর",
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                )),
+                SizedBox(height: 0.1),
+                Center(
+                    child: TextButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => ramgotip()));
+                  },
+                  child: Text("রামগতি",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

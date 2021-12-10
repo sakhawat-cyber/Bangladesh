@@ -5,8 +5,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/pors
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/feniJela/sonagajip.dart';
 import 'package:flutter/material.dart';
 
-class norsingdiJelaPow extends StatelessWidget {
-  const norsingdiJelaPow({Key? key}) : super(key: key);
+class feniJelaPow extends StatelessWidget {
+  const feniJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

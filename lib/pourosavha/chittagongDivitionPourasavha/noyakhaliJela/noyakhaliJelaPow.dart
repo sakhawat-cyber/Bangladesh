@@ -1,15 +1,15 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/chadpurp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/chenghacorp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/foridgognp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/hajigongp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/kacuwap.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/motolobp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/narayonpurp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chadpurJela/sohorasthip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/basurhutp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/chatkhilp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/cowmohonip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/hatiyap.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/kobirhutp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/noyakhalip.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/senbugp.dart';
+import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/noyakhaliJela/sonaimorip.dart';
 import 'package:flutter/material.dart';
 
-class chadpurJelaPow extends StatelessWidget {
-  const chadpurJelaPow({Key? key}) : super(key: key);
+class noyakhaliJelaPow extends StatelessWidget {
+  const noyakhaliJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class chadpurJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "চাঁদপুর জেলার পৌরসভা সমূহ",
+                      "নোয়াখালী জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -39,10 +39,10 @@ class chadpurJelaPow extends StatelessWidget {
                   child: TextButton(
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => chadpurp()));
+                          MaterialPageRoute(builder: (context) => chatkhilp()));
                     },
                     child: Text(
-                      "চাঁদপুর",
+                      "চাটখিল",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -53,9 +53,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => hajigongp()));
+                        MaterialPageRoute(builder: (context) => cowmohonip()));
                   },
-                  child: Text("হাজীগঞ্জ",
+                  child: Text("চৌমুহনী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -64,9 +64,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => motolobp()));
+                        MaterialPageRoute(builder: (context) => noyakhalip()));
                   },
-                  child: Text("মতলব",
+                  child: Text("নোয়াখালী",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -75,9 +75,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => chenghacorp()));
+                        MaterialPageRoute(builder: (context) => basurhutp()));
                   },
-                  child: Text("ছেংগারচর",
+                  child: Text("বসুরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -86,9 +86,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => kacuwap()));
+                        MaterialPageRoute(builder: (context) => sonaimorip()));
                   },
-                  child: Text("কচুয়া",
+                  child: Text("সোনাইমুড়ি",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -97,9 +97,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => sohorasthip()));
+                        MaterialPageRoute(builder: (context) => kobirhutp()));
                   },
-                  child: Text("শাহরাস্তি",
+                  child: Text("কবিরহাট",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -108,9 +108,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => foridgognp()));
+                        MaterialPageRoute(builder: (context) => senbugp()));
                   },
-                  child: Text("ফরিদগঞ্জ",
+                  child: Text("সেনবাগ",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -119,9 +119,9 @@ class chadpurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => narayonpurp()));
+                        MaterialPageRoute(builder: (context) => hatiyap()));
                   },
-                  child: Text("নারায়ণপুর",
+                  child: Text("হাতিয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

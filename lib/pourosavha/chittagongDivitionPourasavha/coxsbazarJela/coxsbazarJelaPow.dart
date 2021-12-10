@@ -4,8 +4,8 @@ import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/coxsbazarJela
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/coxsbazarJela/teknafp.dart';
 import 'package:flutter/material.dart';
 
-class foridpurJelaPow extends StatelessWidget {
-  const foridpurJelaPow({Key? key}) : super(key: key);
+class coxsbazarJelaPow extends StatelessWidget {
+  const coxsbazarJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

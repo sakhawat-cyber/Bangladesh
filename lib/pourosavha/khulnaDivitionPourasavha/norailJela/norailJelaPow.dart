@@ -1,11 +1,10 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/lokkipurp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/raipurp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/ramgongp.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/lokkipurJela/ramgotip.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/norailJela/kaiyap.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/norailJela/lohagarap.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/norailJela/norailp.dart';
 import 'package:flutter/material.dart';
 
-class madaripurJelaPow extends StatelessWidget {
-  const madaripurJelaPow({Key? key}) : super(key: key);
+class norailJelaPow extends StatelessWidget {
+  const norailJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +23,7 @@ class madaripurJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "লক্ষ্মীপুর জেলার পৌরসভা সমূহ",
+                      "নড়াইল জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -35,10 +34,10 @@ class madaripurJelaPow extends StatelessWidget {
                   child: TextButton(
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ramgongp()));
+                          MaterialPageRoute(builder: (context) => norailp()));
                     },
                     child: Text(
-                      "রামগঞ্জ",
+                      "নড়াইল",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
@@ -49,9 +48,9 @@ class madaripurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => raipurp()));
+                        MaterialPageRoute(builder: (context) => kaiyap()));
                   },
-                  child: Text("রায়পুর",
+                  child: Text("কালিয়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),
@@ -60,20 +59,9 @@ class madaripurJelaPow extends StatelessWidget {
                     child: TextButton(
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => lokkipurp()));
+                        MaterialPageRoute(builder: (context) => lohagarap()));
                   },
-                  child: Text("লক্ষ্মীপুর",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => ramgotip()));
-                  },
-                  child: Text("রামগতি",
+                  child: Text("লোহাগড়া",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
                 )),

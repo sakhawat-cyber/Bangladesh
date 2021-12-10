@@ -1,9 +1,8 @@
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/ranghamathiJela/bagaicarip.dart';
-import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/ranghamathiJela/ranghamatip.dart';
+import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/maguraJela/magurap.dart';
 import 'package:flutter/material.dart';
 
-class ranghamatiJelaPow extends StatelessWidget {
-  const ranghamatiJelaPow({Key? key}) : super(key: key);
+class maguraJelaPow extends StatelessWidget {
+  const maguraJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +21,7 @@ class ranghamatiJelaPow extends StatelessWidget {
                   color: Colors.grey,
                   child: Center(
                     child: Text(
-                      "রাঙ্গামাটি জেলার পৌরসভা সমূহ",
+                      "মাগুরা জেলার পৌরসভা সমূহ",
                       style:
                           TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                     ),
@@ -32,25 +31,16 @@ class ranghamatiJelaPow extends StatelessWidget {
                 Center(
                   child: TextButton(
                     onPressed: () {
-                      MaterialPageRoute(builder: (context) => ranghamatip());
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => magurap()));
                     },
                     child: Text(
-                      "রাঙ্গামাটি",
+                      "মাগুরা",
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
                     ),
                   ),
                 ),
-                SizedBox(height: 0.1),
-                Center(
-                    child: TextButton(
-                  onPressed: () {
-                    MaterialPageRoute(builder: (context) => bagaicarip());
-                  },
-                  child: Text("বাঘাইছড়ি",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
                 SizedBox(height: 1),
                 RaisedButton(
                   onPressed: () {
