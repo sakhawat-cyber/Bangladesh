@@ -18,7 +18,7 @@ class senbugp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে সেনবাগs পৌরসভা",
+                    "এক নজরে সেনবাগ পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),

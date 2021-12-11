@@ -1,10 +1,10 @@
 import 'package:bangladesh/upjela/barishalDivitionUpjela/brashal_1.dart';
 import 'package:bangladesh/upjela/chittagongDivitionUpjela/chittang_1.dart';
-import 'package:bangladesh/upjela/dhaka%20divition%20upjela/dhaka_1.dart';
+import 'package:bangladesh/upjela/dhakaDivitionUpjela/dhaka_1.dart';
 import 'package:bangladesh/upjela/khulnaDivitionUpjela/khulnaJelaUpjela/khulna_1.dart';
-import 'package:bangladesh/upjela/moymonshing%20divition%20%20upjela/maimonshing_1.dart';
-import 'package:bangladesh/upjela/rajshahi%20Jela%20Upjela/rajshahi_1.dart';
-import 'package:bangladesh/upjela/rangpur%20divition%20upjela/rangpur_1.dart';
+import 'package:bangladesh/upjela/moymonshingDivitionUpjela/maimonshing_1.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/rajshahi_1.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/rangpur_1.dart';
 import 'package:bangladesh/upjela/shelatDivitionUpjela/shelet_1.dart';
 import 'package:flutter/material.dart';
 

@@ -3,7 +3,6 @@ import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/narayongongJela/go
 import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/narayongongJela/kancon.dart';
 import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/narayongongJela/sonargoa.dart';
 import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/narayongongJela/tarav.dart';
-import 'package:bangladesh/upjela/rajshahi%20Jela%20Upjela/rajshahiJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class narauongongJelaPow extends StatelessWidget {

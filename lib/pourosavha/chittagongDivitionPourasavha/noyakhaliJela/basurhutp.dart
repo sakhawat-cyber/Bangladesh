@@ -18,7 +18,7 @@ class basurhutp extends StatelessWidget {
                 color: Colors.grey,
                 child: Center(
                   child: Text(
-                    "এক নজরে বসুরহাটs পৌরসভা",
+                    "এক নজরে বসুরহাট পৌরসভা",
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20),
                   ),
                 ),
