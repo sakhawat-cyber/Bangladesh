@@ -100,7 +100,10 @@ class brashal_3 extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("BACK"),
+              child: Text(
+                "BACK",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),
