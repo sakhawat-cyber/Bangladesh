@@ -1,11 +1,11 @@
-import 'package:bangladesh/pourosavha/brashal_3.dart';
+import 'package:bangladesh/pourosavha/barisalDivitionPourasavha/brashal_3.dart';
 import 'package:bangladesh/pourosavha/chittagongDivitionPourasavha/chittang_3.dart';
 import 'package:bangladesh/pourosavha/dhakaDivitionPourasavha/dhaka_3.dart';
 import 'package:bangladesh/pourosavha/khulnaDivitionPourasavha/khulna_3.dart';
-import 'package:bangladesh/pourosavha/maimonshing_3.dart';
+import 'package:bangladesh/pourosavha/mainmongshingDivitionPourasavha/maimonshing_3.dart';
 import 'package:bangladesh/pourosavha/rajshahiDivitionPourasavha/rajshahi_3.dart';
-import 'package:bangladesh/pourosavha/rangpur_3.dart';
-import 'package:bangladesh/pourosavha/shelet_3.dart';
+import 'package:bangladesh/pourosavha/rangpurDivitionPourasavha/rangpur_3.dart';
+import 'package:bangladesh/pourosavha/sheletDivitionPourasavha/shelet_3.dart';
 import 'package:flutter/material.dart';
 
 class pourasavha extends StatelessWidget {
