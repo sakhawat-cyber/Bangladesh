@@ -1,11 +1,11 @@
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/bguraJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/capainobabgongJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/joypurhutJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/notorJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/noughaJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/phabnaJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/rajshahiJelaUpjela.dart';
-import 'package:bangladesh/upjela/rajshahiJelaUpjela/sirajgongJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/bguraJelaUpjela/bguraJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/capainobabgongJelaUpjela/capainobabgongJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/joypurhutJelaUpjela/joypurhutJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/notorJelaUpjela/notorJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/noughaJelaUpjela/noughaJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/phabnaJelaUpjela/phabnaJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/rajshahiJelaUpjela/rajshahiJelaUpjela.dart';
+import 'package:bangladesh/upjela/rajshahiJelaUpjela/sirajgongJelaUpjela/sirajgongJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class rajghahi_1 extends StatelessWidget {

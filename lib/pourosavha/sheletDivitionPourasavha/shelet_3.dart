@@ -1,10 +1,16 @@
+import 'package:bangladesh/pourosavha/sheletDivitionPourasavha/hovigongJela/hovigongJelaPow.dart';
+import 'package:bangladesh/pourosavha/sheletDivitionPourasavha/mowlovibazarJela/mowlovibazarJelaPow.dart';
+import 'package:bangladesh/pourosavha/sheletDivitionPourasavha/sheletJela/sheletJelaPow.dart';
+import 'package:bangladesh/pourosavha/sheletDivitionPourasavha/sonamgongJela/sonamgongJelaPow.dart';
 import 'package:flutter/material.dart';
+
 class shelet_3 extends StatelessWidget {
   const shelet_3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Scaffold(
+    return SafeArea(
+        child: Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
@@ -24,33 +30,49 @@ class shelet_3 extends StatelessWidget {
             SizedBox(height: 1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "সিলেট জেলা",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
-                  ),
-                )),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => sheletJelaPow()));
+              },
+              child: Text(
+                "সিলেট জেলা",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
+              ),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("মৌলভীবাজার জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => mowlovibazarJelaPow()));
+              },
+              child: Text("মৌলভীবাজার জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("হবিগঞ্জ জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => hovigongJelaPow()));
+              },
+              child: Text("হবিগঞ্জ জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 0.1),
             Center(
                 child: TextButton(
-                  onPressed: () {},
-                  child: Text("সুনামগঞ্জ জেলা",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
-                )),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => sonamgongJelaPow()));
+              },
+              child: Text("সুনামগঞ্জ জেলা",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+            )),
             SizedBox(height: 1),
             RaisedButton(
               onPressed: () {

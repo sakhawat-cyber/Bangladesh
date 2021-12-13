@@ -1,7 +1,7 @@
-import 'package:bangladesh/upjela/moymonshingDivitionUpjela/jamalpurJelaUpjela.dart';
-import 'package:bangladesh/upjela/moymonshingDivitionUpjela/moymonshingJelaUpjela.dart';
-import 'package:bangladesh/upjela/moymonshingDivitionUpjela/netrokhonaJelaUpjela.dart';
-import 'package:bangladesh/upjela/moymonshingDivitionUpjela/sherpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/moymonshingDivitionUpjela/jamalpurJelaUpjela/jamalpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/moymonshingDivitionUpjela/moymonshingJelaUpjela/moymonshingJelaUpjela.dart';
+import 'package:bangladesh/upjela/moymonshingDivitionUpjela/netrokhonaJelaUpjela/netrokhonaJelaUpjela.dart';
+import 'package:bangladesh/upjela/moymonshingDivitionUpjela/sherpurJelaUpjela/sherpurJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class maimonshing_1 extends StatelessWidget {

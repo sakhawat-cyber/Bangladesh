@@ -1,11 +1,11 @@
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/dinajpurJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/gaibhandhaJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/korigramJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/lalmonrihutJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/nilfamariJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/phoncogodJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/rangpurJelaUpjela.dart';
-import 'package:bangladesh/upjela/rangpurDivitionUpjela/thakurgouJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/dinajpurJelaUpjela/dinajpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/gaibhandhaJelaUpjela/gaibhandhaJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/korigramJelaUpjela/korigramJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/lalmonrihutJelaUpjela/lalmonrihutJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/nilfamariJelaUpjela/nilfamariJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/phoncogodJelaUpjela/phoncogodJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/rangpurJelaUpjela/rangpurJelaUpjela.dart';
+import 'package:bangladesh/upjela/rangpurDivitionUpjela/thakurgouJelaUpjela/thakurgouJelaUpjela.dart';
 import 'package:flutter/material.dart';
 
 class rangpur_1 extends StatelessWidget {

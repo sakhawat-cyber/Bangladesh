@@ -3,8 +3,8 @@ import 'package:bangladesh/pourosavha/rangpurDivitionPourasavha/rangpurJela/hara
 import 'package:bangladesh/pourosavha/rangpurDivitionPourasavha/rangpurJela/pirgongp.dart';
 import 'package:flutter/material.dart';
 
-class bguraJelaPow extends StatelessWidget {
-  const bguraJelaPow({Key? key}) : super(key: key);
+class rangpurJelaPow extends StatelessWidget {
+  const rangpurJelaPow({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

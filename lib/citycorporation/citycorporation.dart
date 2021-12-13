@@ -1,11 +1,11 @@
-import 'package:bangladesh/citycorporation/brashal_2.dart';
-import 'package:bangladesh/citycorporation/chittang_2.dart';
-import 'package:bangladesh/citycorporation/dhaka_2.dart';
-import 'package:bangladesh/citycorporation/khulna_2.dart';
-import 'package:bangladesh/citycorporation/maimonshing_2.dart';
-import 'package:bangladesh/citycorporation/rajshahi_2.dart';
-import 'package:bangladesh/citycorporation/rangpur_2.dart';
-import 'package:bangladesh/citycorporation/shelet_2.dart';
+import 'package:bangladesh/citycorporation/borisalCityCor/brashal_2.dart';
+import 'package:bangladesh/citycorporation/chittagongCityCor/chittang_2.dart';
+import 'package:bangladesh/citycorporation/dhakaCityCor/dhaka_2.dart';
+import 'package:bangladesh/citycorporation/khulnaCityCor/khulna_2.dart';
+import 'package:bangladesh/citycorporation/moynongshingCityCor/maimonshing_2.dart';
+import 'package:bangladesh/citycorporation/rajshahiCityCor/rajshahi_2.dart';
+import 'package:bangladesh/citycorporation/rangpurCityCor/rangpur_2.dart';
+import 'package:bangladesh/citycorporation/sheletCityCor/shelet_2.dart';
 import 'package:flutter/material.dart';
 
 class citycorporation extends StatelessWidget {
